@@ -1,0 +1,202 @@
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5 arial;
+  padding: 0;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header .highlight a {
+  color: #00686d;
+  font-weight: bold;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.button_1 {
+  height: 38px;
+  background: #e74c3c;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+#branding img {
+  width: 100px;
+  margin: 5px;
+}
+
+header {
+  background: #00686d;
+  color: #ffffff;
+  min-height: 70px;
+  padding-top: 30px;
+  border-bottom: #ffffff 3px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header a:hover {
+  color: #00686d;
+}
+
+header ul {
+  padding: 0;
+  margin: 0;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 5px 20px 5px 20px;
+  margin-left: 10px;
+  background: #7f8c8d;
+  line-height: normal;
+  border-radius: 5px;
+}
+
+header #branding {
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: 50px;
+}
+
+header #branding h1 {
+  display: inline;
+  float: right;
+  margin-top: 40px;
+}
+
+#showcase {
+  min-height: 700px;
+  background: url("./img/screen1.jpg") no-repeat center -280px;
+  background-size: 1700px;
+  text-align: center;
+  color: #00686d;
+}
+
+#showcase h1 {
+  margin-top: 200px;
+  font-size: 180px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  color: #ffffff;
+  font-size: 50px;
+}
+
+#blog {
+  padding: 5px;
+}
+
+.table,
+.tabble th,
+.tabble td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+#thx {
+  background: #00686d;
+  padding: 5px;
+  color: #ffffff;
+}
+
+#thx h1 {
+  text-align: center;
+}
+
+#developer img {
+  width: 100px;
+}
+
+#developer {
+  margin-top: 20px;
+}
+
+#developer .box {
+  float: left;
+  padding: 10px;
+  text-align: center;
+  width: 25%;
+  margin-right: 125px;
+  margin-left: 125px;
+}
+
+footer {
+  background: #00686d;
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
